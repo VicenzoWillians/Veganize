@@ -1,0 +1,41 @@
+.mt{
+    margin-top: 75px;
+}
+
+.center-flex{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+table {
+    border:black solid 1px;
+    margin: auto;
+    margin-top: 2%;
+}
+
+th{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+td {
+    text-align: center;
+    padding-bottom: 10px;
+    
+}
+
+table, thead {
+    vertical-align: middle !important;
+}
+
+.recipe-content {
+    overflow-x: auto !important; 
+    overflow-y: auto !important; 
+    max-width: 90% !important; 
+    max-height: 80vh !important;
+}

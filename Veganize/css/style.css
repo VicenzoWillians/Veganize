@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dela+Gothic+One&family=Fjalla+One&display=swap');
+
+#veganize-navbar .nav-link{
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+@media(max-width: 425px) {
+    .smartphone {
+        display: none;
+    }
+
+    .content-mobile {
+        text-align: center;
+    }
+
+    .btn-footer{
+        margin: auto;
+        display: block;
+    }
+
+    .card-img-overlay {
+        font-size: 1.2rem !important;
+        letter-spacing: normal !important;
+    }
+
+    .text-recipe {
+        font-size: 20px !important;
+    }
+
+    .img-horizontal {
+        display: none;
+    }
+}
+
+/* Background - home */
+.veganize{
+    margin-top: 75px;
+}
+
+.bg-black{
+    background-color: #1C1C1C;
+}
+
+.bg-green{
+    background-color: #00CBA9;
+    margin-bottom: -8rem;
+    padding-bottom: 5rem;
+}
+
+/* Title and fonts - home */
+#title {
+    text-align: center;
+}
+
+#o-movimento{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+#conteudo-texto{
+    font-size: 20px;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.texto-dark{
+    color: white;
+}
+
+.title-green{
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+/* Map - home*/
+.map {
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    display: flex;
+}
+
+.map iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+
+}
+
+/* Buttons - home*/
+.btn-contact {
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    max-width: 100%;
+}
+
+.btn-primary{
+    background-color: #00CBA9;
+    border-color: #00CBA9;
+    margin: 5px 0;
+}
+
+.btn-primary:hover{
+    background-color: #1C1C1C;
+    border-color: #1C1C1C;
+}
+
+.button-primary-outline{
+    border-color: #00CBA9;
+    color: #00CBA9;
+}
+
+.button-primary-outline:hover{
+    background-color: #1C1C1C;
+    border-color: #1C1C1C;
+    color: white;
+}
+
+/* Slider - home */
+#slider{
+    background: url(../images/background-veganize.png) no-repeat center bottom;
+    background-size: contain;
+}
+
+#slider p{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+#slider h4{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* Go to top button*/
+#myBtn { 
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #1C1C1C;
+    color: white; 
+    cursor: pointer; 
+    padding: 20px;
+    border-radius: 30px;
+}
+  
+#myBtn:hover {
+    background-color: #2B2B2B;
+}
+
+/* Footer */
+.footer-color{
+    background-color: #1C1C1C;
+    color: white;
+}
+
+.footer{
+    margin-top: 8rem;
+}
+
+.footer-2 a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer-2 a:hover{
+    color: #7FE5D4;
+    text-decoration: none;
+}
+
+.btn-footer{
+    border-color: #00CBA9;
+    background-color: #1C1C1C;
+    color: #00CBA9;
+    font-weight: 500;
+}
+
+.btn-footer:hover{
+    background-color: #00CBA9;
+    border-color: #00CBA9;
+    color: #1C1C1C;
+}
+
+
+/* Cards */
+.card-transform{
+    transition: all 0.5s ease-in-out;
+}
+
+.card-img-overlay {
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 1.1rem;
+}
+
+.card-transform:hover{
+    transition: all 0.5s ease-in-out;
+    transform: scale3d(1.05, 1.05, 1.05); 
+}
+
+.card-img-overlay:hover{
+    background-color: black;
+    opacity: 0.7;
+}
+
+.text-recipe {
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.template a{
+    font-size: 0.9rem !important;
+    text-decoration: none !important;
+    color: #1C1C1C !important;
+}
+
+.template a:hover{
+    text-decoration: underline !important;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.img-horizontal {
+    height: 260px;
+    background: transparent no-repeat center;
+    background-size: cover;
+}
+
+.vl {
+    border-left: 1px solid #6C757D;
+}
