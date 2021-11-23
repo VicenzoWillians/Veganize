@@ -5760,6 +5760,7 @@ select * from contato;
 select * from dados_receita;  
 select * from dados_usuario;
 select * from categorias;
+select * from unidades_medidas;
 
 -- show tables;
 -- drop database veganize;

@@ -149,7 +149,7 @@ function addIngrediente(divName){
     if(line <= 20) {
         newdiv.innerHTML += '<div class="col-12"> <label class="col-form-label center-flex">Ingrediente '+line+'</label></div>'
         newdiv.innerHTML += '<div class="col-12"> <input type="text" name="qnt_ingrediente'+line+'" id="qnt_ingrediente'+line+'" class="form-control" placeholder="Quantidade"/> </div>';
-        newdiv.innerHTML += '<div class="col-12"> <select name="medida_ingrediente'+line+'" id="medida_ingrediente'+line+'" class="form-control select"> <option value="">Medida</option> <option value="1">Colher de Café</option> <option value="2">Colher de Chá</option> <option value="3">Colher de Sopa</option> <option value="4">Gramas</option> <option value="5">Litros</option> <option value="6">Mililitro</option> <option value="7">Quilograma</option> <option value="8">Unidade</option> <option value="9">Xícara</option> </select> </div>';
+        newdiv.innerHTML += '<div class="col-12"> <select name="medida_ingrediente'+line+'" id="medida_ingrediente'+line+'" class="form-control select"> <option value="">Medida</option> <option value="5">Colher de Café</option> <option value="15">Colher de Chá</option> <option value="25">Colher de Sopa</option> <option value="35">Gramas</option> <option value="45">Litros</option> <option value="55">Mililitro</option> <option value="65">Quilograma</option> <option value="75">Unidade</option> <option value="85">Xícara</option> </select> </div>';
         newdiv.innerHTML += '<div class="col-12"> <input type="text" name="nome_ingrediente'+line+'" id="nome_ingrediente'+line+'" class="form-control" placeholder="Nome do Ingrediente"/> </div>';
         newdiv.innerHTML += '<input type="hidden" name="cont" id="cont" value="'+line+'" />';
 
