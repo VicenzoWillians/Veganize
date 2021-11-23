@@ -239,11 +239,11 @@
 </div>
 
 
-      <!-- Footer -->
-      <?php
+      <!-- Footer
+      
         include 'inc/cadastro.inc';
         include 'inc/template.inc';
-      ?>
+      ?> -->
 
       <script src="js/script.js"></script>
     </body>
