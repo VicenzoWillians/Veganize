@@ -33,7 +33,7 @@
                             <select name="estado" id="estados" class="form-select">
                                 <option value="0">Estado</option>
                                 <?php
-                                    include('conexao.inc');
+                                    include('inc/conexao.inc');
 
                                     $estados = "SELECT id, uf FROM estados";
                                     $query=mysqli_query($con, $estados);
