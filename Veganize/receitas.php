@@ -6,7 +6,7 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Veganize | Home</title>
+        <title>Veganize | Receitas</title>
         
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/main.css">
@@ -33,7 +33,7 @@
                 </div>
                 <hr class="divider">
                 <div class="col-4 my-3">
-                    <a href="recipes/drinks.php">
+                    <a href="drinks.php">
                         <div class="card card-transform text-white">
                             <img src="images/cards/bebidas.jpg" class="card-img" alt="Bebidas">
                             <div class="card-img-overlay center-flex">
@@ -43,7 +43,7 @@
                     </a>
                 </div>
                 <div class="col-4 my-3">
-                    <a href="recipes/cakes.php">
+                    <a href="cakes.php">
                         <div class="card card-transform text-white">
                             <img src="images/cards/bolos.jpg" class="card-img" alt="Bolos e Tortas">
                             <div class="card-img-overlay center-flex">
@@ -53,7 +53,7 @@
                     </a>
                 </div>
                 <div class="col-4 my-3">
-                    <a href="recipes/sweets.php">
+                    <a href="sweets.php">
                         <div class="card card-transform text-white">
                             <img src="images/cards/sobremesas.jpg" class="card-img" alt="Doces e Sobremesas">
                             <div class="card-img-overlay center-flex">
@@ -63,7 +63,7 @@
                     </a>
                 </div>
                 <div class="col-4 my-3">
-                    <a href="recipes/snack.php">
+                    <a href="snack.php">
                         <div class="card card-transform text-white">
                             <img src="images/cards/lanches.jpg" class="card-img" alt="Bebidas">
                             <div class="card-img-overlay center-flex">
@@ -83,7 +83,7 @@
                     </a>
                 </div>
                 <div class="col-4 my-3">
-                    <a href="recipes/breads.php">
+                    <a href="breads.php">
                         <div class="card card-transform text-white">
                             <img src="images/cards/paes.jpg" class="card-img" alt="Doces e Sobremesas">
                             <div class="card-img-overlay center-flex">
@@ -93,7 +93,7 @@
                     </a>
                 </div>
                 <div class="col-4 my-3">
-                    <a href="recipes/salads.php">
+                    <a href="salads.php">
                         <div class="card card-transform text-white">
                             <img src="images/cards/saladas.jpg" class="card-img" alt="Bolos e Tortas">
                             <div class="card-img-overlay center-flex">
@@ -103,7 +103,7 @@
                     </a>
                 </div>
                 <div class="col-4 my-3">
-                    <a href="recipes/soups.php">
+                    <a href="soups.php">
                         <div class="card card-transform text-white">
                             <img src="images/cards/sopas.jpg" class="card-img" alt="Doces e Sobremesas">
                             <div class="card-img-overlay center-flex">

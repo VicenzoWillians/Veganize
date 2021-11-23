@@ -6,23 +6,23 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Veganize | Home</title>
+        <title>Veganize | Bebidas</title>
         
         <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-        <link rel="shortcut icon" href="../images/logo.png">
+        <link rel="shortcut icon" href="images/logo.png">
 
         <!-- JavaScript -->
-        <script src="../js/jquery-3.5.1.js"></script>
-        <script src="../js/bootstrap.bundle.min.js"></script>
-        <script src="../js/form_script.js"></script>
+        <script src="js/jquery-3.5.1.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/form_script.js"></script>
         <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     </head>
     <body>
         <!-- header -->
         <?php
-            include '../inc/navbar_recipe.inc';
+            include 'inc/navbar.inc';
         ?>
 
         <!-- Receitas e Dicas-->
@@ -33,7 +33,7 @@
                 </div>
                 <hr class="divider">
                     <?php
-                        include('../inc/conexao.inc');
+                        include('inc/conexao.inc');
 
                         $consulta = "SELECT * FROM dados_receita where status_receita = '1' and categoria_receita = '1'";
                         $query=mysqli_query($con, $consulta);
@@ -48,7 +48,7 @@
                                             <div class="card mb-3">
                                                 <div class="card-horizontal">
                                                     <div class="img-square-wrapper">
-                                                        <img src="../images/categories/drinks.jpg" class="card-img img-horizontal" alt="Bebidas">
+                                                        <img src="images/categories/drinks.jpg" class="card-img img-horizontal" alt="Bebidas">
                                                     </div>
                                                     <div class="card-body">
                                                         <div class="col-12 center-flex my-4">
@@ -98,11 +98,11 @@
                 
         <!-- Footer -->
         <?php
-            include '../inc/receitas.inc';
-            include '../inc/template.inc';
-            include '../inc/cadastro.inc';
-            include '../inc/footer.inc';
+            include 'inc/receitas.inc';
+            include 'inc/template.inc';
+            include 'inc/cadastro.inc';
+            include 'inc/footer.inc';
         ?>
-        <script src="../js/script.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>

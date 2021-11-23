@@ -22,7 +22,7 @@
     <body>
         <!-- header -->
         <?php
-            include 'inc/navbar_recipe.inc';
+            include 'inc/navbar.inc';
         ?>
 
         <!-- Receitas e Dicas-->

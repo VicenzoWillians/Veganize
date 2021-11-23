@@ -6,7 +6,7 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Veganize | Massas</title>
+        <title>Veganize | Lanches</title>
         
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/main.css">
@@ -22,20 +22,20 @@
     <body>
         <!-- header -->
         <?php
-            include 'inc/navbar_recipe.inc';
+            include 'inc/navbar.inc';
         ?>
 
         <!-- Receitas e Dicas-->
         <div class="container veganize">
             <div class="row content-mobile justify-content-center">
                 <div class="col-12 text-secondary text-center my-3">
-                  <h1 id="o-movimento" style="color:#6C757D;">MASSAS</h1>
+                  <h1 id="o-movimento" style="color:#6C757D;">LANCHES</h1>
                 </div>
                 <hr class="divider">
                     <?php
                         include('inc/conexao.inc');
 
-                        $consulta = "SELECT * FROM dados_receita where status_receita = '1' and categoria_receita = '5'";
+                        $consulta = "SELECT * FROM dados_receita where status_receita = '1' and categoria_receita = '4'";
                         $query=mysqli_query($con, $consulta);
 
                         if($consulta){
@@ -48,7 +48,7 @@
                                             <div class="card mb-3">
                                                 <div class="card-horizontal">
                                                     <div class="img-square-wrapper">
-                                                        <img src="images/categories/pastas.jpg" class="card-img img-horizontal" alt="Massas">
+                                                        <img src="images/categories/snacks.jpg" class="card-img img-horizontal" alt="Lanches">
                                                     </div>
                                                     <div class="card-body">
                                                         <div class="col-12 center-flex my-4">
@@ -98,6 +98,7 @@
                 
         <!-- Footer -->
         <?php
+            include 'inc/receitas.inc';
             include 'inc/template.inc';
             include 'inc/cadastro.inc';
             include 'inc/footer.inc';
