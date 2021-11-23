@@ -6,7 +6,7 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Veganize | Home</title>
+        <title>Veganize | Massas</title>
         
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="../css/main.css">
@@ -58,7 +58,7 @@
                                                             <h4 class="card-text" style="text-align:center;">Feito por ';
                                                             if($consulta_nome){
                                                                 while(($resultado_nome=mysqli_fetch_assoc($query_nome))!=null){
-                                                                    if($resultado['nome']==$resultado_nome['nome_usuario']){
+                                                                    if($resultado['nome']===$resultado_nome['nome_usuario']){
                                                                         echo '' . $resultado_nome['nome_completo'] . '';
                                                                     }
                                                                 }
@@ -98,10 +98,9 @@
                 
         <!-- Footer -->
         <?php
-            include '../inc/receitas.inc';
             include '../inc/template.inc';
-            include '../inc/cadastro.inc';
-            include '../inc/footer.inc';
+            include '../inc/cadastro_recipe.inc';
+            include '../inc/footer_recipe.inc';
         ?>
         <script src="../js/script.js"></script>
     </body>
