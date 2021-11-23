@@ -10,7 +10,6 @@
         
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
         <link rel="shortcut icon" href="images/logo.png">
 
@@ -29,7 +28,7 @@
       <!-- content -->
       <div class="container veganize">
         <div id="slider">
-          <div class="row justify-content-between content-mobile" data-aos="fade-up" data-aos-duration="1000">
+          <div class="row justify-content-between content-mobile">
             <div class="col align-self-center">
               <p class="h2">OS MELHORES LUGARES DE ARARAQUARA</p>
               <h4 class="mb-4">Você encontra aqui no Veganize.</h4>
@@ -52,7 +51,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200"><path fill="#00cba9" fill-opacity="1" d="M0,192L48,181.3C96,171,192,149,288,128C384,107,480,85,576,90.7C672,96,768,128,864,138.7C960,149,1056,139,1152,133.3C1248,128,1344,128,1392,128L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
         <span id="movimento"></span>
         <div class="container">
-          <div class="row content-mobile" data-aos="fade-up" data-aos-duration="1000">
+          <div class="row content-mobile">
             <div class="col text-center smartphone align-self-center">
               <img src="images/home/vaca.png" class="img-fluid" width="450px">
             </div>
@@ -66,7 +65,7 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200"><path fill="#00cba9" fill-opacity="1" d="M0,192L48,181.3C96,171,192,149,288,128C384,107,480,85,576,90.7C672,96,768,128,864,138.7C960,149,1056,139,1152,133.3C1248,128,1344,128,1392,128L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
       <div class="container">
-        <div class="row content-mobile" data-aos="fade-up" data-aos-duration="1000">
+        <div class="row content-mobile">
           <div class="col text-secondary text-right align-self-center">
             <p id="conteudo-texto">Embora a definição de veganismo estivesse no início da The Vegan Society em 1944, foi somente em 1949 que Leslie J. Cross apontou que faltava à sociedade uma definição de veganismo. Ele propôs "o princípio de libertar os animais da exploração da humanidade". Posteriormente, foi esclarecido como "buscar acabar com o uso de animais pelos humanos para alimentação, mercadorias, trabalho, caça, biópsia e todos os outros fins que envolvam a exploração humana da vida animal". A associação foi registrada pela primeira vez como uma instituição de caridade em agosto de 1964, mas quando se tornou uma sociedade anônima em dezembro de 1979, seus ativos foram transferidos para uma nova instituição de caridade. A definição de vegetarianismo e caridade mudou e melhorou nos últimos anos. No inverno de 1988, a definição atual foi usada - embora a frase tenha mudado ligeiramente nos últimos anos.</p>
           </div>
@@ -80,7 +79,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200"><path fill="#00cba9" fill-opacity="1" d="M0,192L48,181.3C96,171,192,149,288,128C384,107,480,85,576,90.7C672,96,768,128,864,138.7C960,149,1056,139,1152,133.3C1248,128,1344,128,1392,128L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
         <span id="movimento"></span>
         <div class="container">
-          <div class="row content-mobile" data-aos="fade-up" data-aos-duration="1000">
+          <div class="row content-mobile">
             <div class="col text-center smartphone align-self-center">
               <img src="images/home/coelho.png" class="img-fluid" width="450px">
             </div>
@@ -94,7 +93,7 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200"><path fill="#00cba9" fill-opacity="1" d="M0,192L48,181.3C96,171,192,149,288,128C384,107,480,85,576,90.7C672,96,768,128,864,138.7C960,149,1056,139,1152,133.3C1248,128,1344,128,1392,128L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
       <div class="container">
-        <div class="row content-mobile" data-aos="fade-up" data-aos-duration="1000">
+        <div class="row content-mobile">
           <div class="col text-secondary text-right align-self-center">
             <h1 id="o-movimento" style="color:#6C757D;">O MOVIMENTO</h1>
             <p id="conteudo-texto">
@@ -113,7 +112,7 @@
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200"><path fill="#00cba9" fill-opacity="1" d="M0,192L48,181.3C96,171,192,149,288,128C384,107,480,85,576,90.7C672,96,768,128,864,138.7C960,149,1056,139,1152,133.3C1248,128,1344,128,1392,128L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
         <span id="movimento"></span>
         <div class="container">
-          <div class="row content-mobile" data-aos="fade-up" data-aos-duration="1000">
+          <div class="row content-mobile">
             <div class="col text-center smartphone align-self-center">
               <img src="images/home/ralph.png" class="img-fluid" width="450px">
             </div>
@@ -127,7 +126,7 @@
       </div>
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200"><path fill="#00cba9" fill-opacity="1" d="M0,192L48,181.3C96,171,192,149,288,128C384,107,480,85,576,90.7C672,96,768,128,864,138.7C960,149,1056,139,1152,133.3C1248,128,1344,128,1392,128L1440,128L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
       <div class="container">
-        <div class="row content-mobile" data-aos="fade-up" data-aos-duration="1000">
+        <div class="row content-mobile">
           <div class="col text-secondary text-right align-self-center">
             <h1 id="o-movimento" style="color:#6C757D;">TESTES E EXPERIMENTOS</h1>
             <p id="conteudo-texto">
@@ -145,11 +144,11 @@
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="1 0 1440 200"><path fill="#00cba9" fill-opacity="1" d="M0,192L48,181.3C96,171,192,149,288,128C384,107,480,85,576,90.7C672,96,768,128,864,138.7C960,149,1056,139,1152,133.3C1248,128,1344,128,1392,128L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
       <div class="bg-green">
         <div class="container">
-          <div class="row content-mobile text-center" data-aos="fade-up" data-aos-duration="1000">
+          <div class="row content-mobile text-center">
             <h3 id="espacos" class="title-green">ESPAÇOS EM ARARAQUARA</h3>
           </div>
           <hr class="divider" style="color:white; height: 3px">
-          <div class="map align-self-center" data-aos="fade-up" data-aos-duration="1000">
+          <div class="map align-self-center">
             <iframe src="https://www.google.com/maps/d/embed?mid=1Suvi8IPOmLnhoNMA1jv2RwzG1-gqysYB&hl=pt-BR" 
               width="600" height="480" frameborder="0" allowfullscreen>
             </iframe>
@@ -165,11 +164,5 @@
       ?>
 
       <script src="js/script.js"></script>
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-      <script>
-        AOS.init({
-          duration: 500,
-        });
-      </script>
     </body>
   </html>

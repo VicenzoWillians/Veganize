@@ -10,7 +10,6 @@
         
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="../css/main.css">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
         <link rel="shortcut icon" href="../images/logo.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -29,7 +28,7 @@
 
         <!-- Receitas e Dicas-->
         <div class="container veganize">
-            <div class="row content-mobile justify-content-center" date-aos="fade-up">
+            <div class="row content-mobile justify-content-center">
                     <?php
                         $id = $_GET['id'];
                         include('../inc/conexao.inc');
@@ -155,11 +154,5 @@
             include '../inc/footer.inc';
         ?>
         <script src="../js/script.js"></script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          AOS.init({
-            duration: 1000,
-          });
-        </script>
     </body>
 </html>

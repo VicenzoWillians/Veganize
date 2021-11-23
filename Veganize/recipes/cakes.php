@@ -10,7 +10,6 @@
         
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="../css/main.css">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
         <link rel="shortcut icon" href="../images/logo.png">
 
@@ -27,8 +26,8 @@
         ?>
 
         <!-- Receitas e Dicas-->
-        <div class="container veganize" data-aos="fade-up" data-aos-duration="1000">
-            <div class="row content-mobile justify-content-center" date-aos="fade-up">
+        <div class="container veganize">
+            <div class="row content-mobile justify-content-center">
                 <div class="col-12 text-secondary text-center my-3">
                   <h1 id="o-movimento" style="color:#6C757D;">BOLOS E TORTAS</h1>
                 </div>
@@ -105,11 +104,5 @@
             include '../inc/footer.inc';
         ?>
         <script src="../js/script.js"></script>
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-        <script>
-          AOS.init({
-            duration: 1000,
-          });
-        </script>
     </body>
 </html>
