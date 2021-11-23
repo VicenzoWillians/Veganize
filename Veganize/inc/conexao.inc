@@ -1,5 +1,5 @@
 <?php
-    $con=mysqli_connect("us-cdbr-east-04.cleardb.com", "b10b9bf7f244e5", "78c121b2");
+    $con=mysqli_connect("mysql://b10b9bf7f244e5:78c121b2@us-cdbr-east-04.cleardb.com/heroku_0d03552c8b703cf?reconnect=true");
 
     if(!$con){
         echo mysqli_connect_error($con);
@@ -10,5 +10,6 @@
     if(!$db){
         echo mysqli_error($con);
     }
+
 
 ?>
