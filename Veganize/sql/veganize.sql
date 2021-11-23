@@ -1,6 +1,6 @@
-Create database if not exists veganize;
+-- Create database if not exists veganize;
 
-use veganize;
+-- use veganize;
 
 CREATE TABLE if not exists `cidades` (
   `id` int(11) NOT NULL,

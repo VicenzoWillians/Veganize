@@ -73,7 +73,7 @@
                     </a>
                 </div>
                 <div class="col-4 my-3">
-                    <a href="recipes/pastas.php">
+                    <a href="pastas.php">
                         <div class="card card-transform text-white">
                             <img src="images/cards/massas.jpg" class="card-img" alt="Bolos e Tortas">
                             <div class="card-img-overlay center-flex">
