@@ -40,7 +40,7 @@
                         if($consulta){
                             if(mysqli_num_rows($query)>0){
                                 while(($resultado=mysqli_fetch_assoc($query))!=null){
-                                    $consulta_nome = "SELECT * FROM dados_usuario WHERE nome_usuario LIKE '" . $usuario . "'";
+                                    $consulta_nome = "SELECT * FROM dados_usuario WHERE nome_usuario LIKE '%" . $usuario . "%'";
                                     $query_nome=mysqli_query($con, $consulta_nome);
                                     $resultado_nome=mysqli_fetch_assoc($query_nome);
 
