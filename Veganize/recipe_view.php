@@ -78,7 +78,6 @@
                                                     <p class="card-text my-2">';
                                                         if($consulta_nome){
                                                             while(($resultado_nome=mysqli_fetch_assoc($query_nome))!=null){
-                                                                echo '(' . $resultado['nome'] . ') e (' . trim($resultado_nome['nome_usuario']) . ')</br>';
                                                                 if(trim($resultado['nome'])==trim($resultado_nome['nome_usuario'])){
                                                                     echo '' . $resultado_nome['nome_completo'] . '';
                                                                 }
