@@ -31,7 +31,6 @@
             <div class="row content-mobile justify-content-center">
                     <?php
                         $id = $_GET['id'];
-                        $usuario = $_GET['usuario'];
                         include('inc/conexao.inc');
 
                         $consulta = "SELECT * FROM dados_receita where id_receita = '$id'";
@@ -40,9 +39,8 @@
                         if($consulta){
                             if(mysqli_num_rows($query)>0){
                                 while(($resultado=mysqli_fetch_assoc($query))!=null){
-                                    $consulta_nome = "SELECT * FROM dados_usuario WHERE nome_usuario LIKE '%" . $usuario . "%'";
+                                    $consulta_nome = "SELECT * FROM dados_usuario";
                                     $query_nome=mysqli_query($con, $consulta_nome);
-                                    $resultado_nome=mysqli_fetch_assoc($query_nome);
 
                                     $consulta_categoria = "SELECT * FROM categorias";
                                     $query_categoria=mysqli_query($con, $consulta_categoria);
@@ -77,7 +75,15 @@
                                                 <div class="col-3 vl">
                                                     <i class="fas fa-user fa-lg"></i>
                                                     <h5 class="card-title my-2">Enviada por</h5>
-                                                    <p class="card-text my-2">' . $resultado['nome'] . ' e ' . $resultado_nome['nome_usuario'] . '';
+                                                    <p class="card-text my-2">';
+                                                        if($consulta_nome){
+                                                            while(($resultado_nome=mysqli_fetch_assoc($query_nome))!=null){
+                                                                echo '' . $resultado['nome'] . ' e ' . $resultado_nome['nome_usuario'] . ' ';
+                                                                if($resultado['nome']==$resultado_nome['nome_usuario']){
+                                                                    echo '' . $resultado_nome['nome_completo'] . '';
+                                                                }
+                                                            }
+                                                        }
                                                     echo '</p>
                                                 </div>
                                             </div>
