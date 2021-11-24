@@ -66,7 +66,7 @@
                                 if($consulta_categoria){
                                     while(($resultado_categoria=mysqli_fetch_assoc($query_categoria))!=null){
                                         if($resultado['categoria_receita']==$resultado_categoria['id_categoria']){
-                                            echo '<td>' . $resultado_categoria['nome_categoria'] . '</td>';
+                                            echo '<td>' . utf8_encode($resultado_categoria['nome_categoria']) . '</td>';
                                         }
                                     }
                                 }
@@ -83,7 +83,7 @@
                                         if($consulta_unidade){
                                             while(($resultado_unidade=mysqli_fetch_assoc($query_unidade))!=null){
                                                 if($resultado["unidade$i"]==$resultado_unidade['id_unidade']){
-                                                    echo '<td>' . $resultado_unidade['nome_unidade'] . '</td>';
+                                                    echo '<td>' . utf8_encode($resultado_unidade['nome_unidade']) . '</td>';
                                                 }
                                             }
                                         }
