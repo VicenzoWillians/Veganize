@@ -51,7 +51,7 @@
                                             <div class="row">
                                                 <div class="col-3">
                                                     <i class="fas fa-tags fa-lg"></i>
-                                                    <h5 class="card-title my-2">Categoria' . $resultado['nome'] . '</h5>
+                                                    <h5 class="card-title my-2">Categoria</h5>
                                                     <p class="card-text my-2">';    
                                                         if($consulta_categoria){
                                                             while(($resultado_categoria=mysqli_fetch_assoc($query_categoria))!=null){
@@ -78,6 +78,7 @@
                                                     <p class="card-text my-2">';
                                                         if($consulta_nome){
                                                             while(($resultado_nome=mysqli_fetch_assoc($query_nome))!=null){
+                                                                echo '(' . $resultado['nome'] . ') e (' . $resultado_nome['nome_completo'] . '</br>';
                                                                 if($resultado['nome']==$resultado_nome['nome_usuario']){
                                                                     echo '' . $resultado_nome['nome_completo'] . '';
                                                                 }
