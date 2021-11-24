@@ -35,7 +35,7 @@
                     <?php
                         include('inc/conexao.inc');
 
-                        $consulta = "SELECT * FROM dados_receita where status_receita = '1' and categoria_receita = '8'";
+                        $consulta = "SELECT * FROM dados_receita where status_receita = '1' and categoria_receita = '75'";
                         $query=mysqli_query($con, $consulta);
 
                         if($consulta){
