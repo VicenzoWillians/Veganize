@@ -51,7 +51,7 @@
                                             <div class="row">
                                                 <div class="col-3">
                                                     <i class="fas fa-tags fa-lg"></i>
-                                                    <h5 class="card-title my-2">Categoria</h5>
+                                                    <h5 class="card-title my-2">Categoria' . $resultado['nome'] . '</h5>
                                                     <p class="card-text my-2">';    
                                                         if($consulta_categoria){
                                                             while(($resultado_categoria=mysqli_fetch_assoc($query_categoria))!=null){
