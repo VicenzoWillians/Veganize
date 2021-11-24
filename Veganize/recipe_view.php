@@ -79,7 +79,7 @@
                                                         if($consulta_nome){
                                                             while(($resultado_nome=mysqli_fetch_assoc($query_nome))!=null){
                                                                 echo '(' . $resultado['nome'] . ') e (' . trim($resultado_nome['nome_usuario']) . ')</br>';
-                                                                if($resultado['nome']==$resultado_nome['nome_usuario']){
+                                                                if(trim($resultado['nome'])==trim($resultado_nome['nome_usuario'])){
                                                                     echo '' . $resultado_nome['nome_completo'] . '';
                                                                 }
                                                             }
