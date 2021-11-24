@@ -66,7 +66,7 @@
                                                             echo '</h4>
                                                         </div>
                                                         <div class="col-12 center-flex my-4">
-                                                            <a href="recipe_view.php?id=' . $resultado['id_receita'] .'&nome=' . $resultado['nome'] . '" class="btn btn-contact btn-primary">
+                                                            <a href="recipe_view.php?id=' . $resultado['id_receita'] .'&usuario=' . $resultado['nome'] . '" class="btn btn-contact btn-primary">
                                                                 Ver Receita
                                                             </a>
                                                         </div>
