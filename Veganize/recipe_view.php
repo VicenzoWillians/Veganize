@@ -78,7 +78,8 @@
                                                     <p class="card-text my-2">';
                                                         if($consulta_nome){
                                                             while(($resultado_nome=mysqli_fetch_assoc($query_nome))!=null){
-                                                                if($resultado['nome']===$resultado_nome['nome_usuario']){
+                                                                echo '' . $resultado['nome'] . ' e ' . $resultado_nome['nome_usuario'] . '';
+                                                                if($resultado['nome']==$resultado_nome['nome_usuario']){
                                                                     echo '' . $resultado_nome['nome_completo'] . '';
                                                                 }
                                                             }
