@@ -56,7 +56,7 @@
                                                         if($consulta_categoria){
                                                             while(($resultado_categoria=mysqli_fetch_assoc($query_categoria))!=null){
                                                                 if($resultado['categoria_receita']==$resultado_categoria['id_categoria']){
-                                                                    echo '' . $resultado_categoria['nome_categoria'] . '';
+                                                                    echo '' . utf8_encode($resultado_categoria['nome_categoria']) . '';
                                                                 }
                                                             }
                                                         }
